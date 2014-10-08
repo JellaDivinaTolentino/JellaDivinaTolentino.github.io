@@ -45,10 +45,8 @@
 	padding:10px;
 	-moz-animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
-	-moz-animation-duration: 5s;
-	-webkit-animation-duration: 5s;
-	-moz-animation-delay: 2s;
-	-webkit-animation-delay: 2s;
+	-moz-animation-duration: 4s;
+	-webkit-animation-duration: 4s;
 }
 @media (min-width:480px) and (max-width:600px){
 	.loader{
