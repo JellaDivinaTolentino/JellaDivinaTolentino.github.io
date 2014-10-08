@@ -898,7 +898,7 @@
 <script type="text/javascript">	
 $('.loader').addClass('animated flash');
 $(window).load(function(){
-	$('.myPage').show();
+	$('.myPage').addClass('animated fadeInDown');
 	$('.loader').hide();
 });
 	$(function() {
@@ -908,7 +908,7 @@ $(window).load(function(){
 			var $navArrows = $( '#nav-arrows' ),
 				$nav = $( '#nav-dots > span' ),
 				slitslider = $( '#slider' ).slitslider( {
-					onBeforeChange : function( fade, pos ) {
+					onBeforeChange : function( slide, pos ) {
 
 						$nav.removeClass( 'nav-dot-current' );
 						$nav.eq( pos ).addClass( 'nav-dot-current' );
