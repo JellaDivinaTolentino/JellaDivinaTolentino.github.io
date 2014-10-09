@@ -905,7 +905,12 @@
 <script type="text/javascript">	
 $('.loader').addClass('animated flash');
 $(window).load(function(){
+<<<<<<< HEAD
+	$('.myPage').show();
+=======
 	$('.myPage').fadeIn('slow');
+	$('.myPage').removeClass('myPage hide');
+>>>>>>> master
 	$('.loader').hide();
 });
 	$(function() {
