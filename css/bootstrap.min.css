@@ -24,6 +24,9 @@
 .paddingLeft25{
 	padding-left: 25px;
 }
+.widthAuto{
+	width: :auto !important;
+}
 .sliderImages{
 	margin-top:10%;
 	width:80%;
