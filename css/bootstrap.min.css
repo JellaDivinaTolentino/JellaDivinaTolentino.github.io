@@ -30,6 +30,12 @@
 	height:80%;
 	border-radius:100px;
 }
+.sliderImagesLogo{
+	margin-top:10%;
+	width:350px;
+	height:350px;
+	margin-top: 5px;
+}
 .interestsImg{
 	width:150px;
 	height:150px;
@@ -43,15 +49,22 @@
 	font-size: 100px;
 	position:fixed;
 	padding:10px;
+	color: white !important;
 	-moz-animation-iteration-count: infinite !important;
 	-webkit-animation-iteration-count: infinite !important;
 	-moz-animation-duration: 3s !important;
 	-webkit-animation-duration: 3s !important;
 }
-@media (min-width:480px) and (max-width:600px){
+@media (min-width:480px) and (max-width:702px){
 	.loader{
 		font-size:80px;
 		margin-left:-180px;
+	}
+	.desktopFront{
+		display: none;
+	}
+	.phoneFront{
+		display: block;
 	}
 }
 @media (max-width:480px){
@@ -59,7 +72,148 @@
 		font-size:50px;
 		margin-left:-100px;
 	}
+	.desktopFront{
+		display: none;
+	}
+	.phoneFront{
+		display: block;
+	}
+}
+.phoneFront{
+		display: none;
+	}
+.centerMe{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.frontLogo{
+	height:50% !important;
+	width:30% !important;
+	margin-top:110px !important;
+}
+.loadingCenter{
+	/*width: 500px;
+	height: 500px;
+    border: 10px solid red;
+    background-color: white;
+    border-radius: 480px;
+    box-shadow: 0 0 35px #ccc;
+     -moz-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;*/
+
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin-top: 3% !important;
+    background-color: white;
+    border-radius: 480px;
+    box-shadow: 0 0 50px #ccc;
+    opacity: .9;
+    border-top: 10px solid rgba(0,0,0,0);
+    border-left: 10px solid black;
+    border-bottom: 10px solid rgba(0,0,0,0);
+    margin: 0 auto;
+    -moz-animation: spin 3s infinite linear;
+    -webkit-animation: spin 3s infinite linear;
+
+}
+.loadingCenter1{
+	/*width: 500px;
+	height: 500px;
+    border: 10px solid red;
+    background-color: white;
+    border-radius: 480px;
+    box-shadow: 0 0 35px #ccc;
+     -moz-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+*/
+    margin-top: 5% !important;
+    background-color: transparent;
+    opacity: .9;
+    border-top: 10px solid rgba(0,0,0,0);
+    border-left: 10px solid rgba(0,0,0,0);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    -moz-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+
 }
 
 
+.ball {
+	margin-top: 5% !important;
+    background-color: transparent;
+    opacity: .9;
+    border: 10px solid red;
+    border-top: 10px solid rgba(0,0,0,0);
+    border-left: 10px solid rgba(0,0,0,0);
+    width: 500px;
+    height: 500px;
+    border-radius: 480px;
+    margin: 0 auto;
+    -moz-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+}
 
+.ball1 {
+    background-color: rgba(0,0,0,0);
+    border: 5px solid rgba(0,183,229,0.9);
+    opacity: .9;
+    border-top: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #2187e7;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    -moz-animation: spinoff .5s infinite linear;
+    -webkit-animation: spinoff .5s infinite linear;
+
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
+
+@-moz-keyframes spinoff {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(-360deg);
+    };
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}
+
+@-webkit-keyframes spinoff {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+    };
+}
