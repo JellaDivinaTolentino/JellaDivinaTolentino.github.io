@@ -1,4 +1,20 @@
-﻿<!DOCTYPE html>
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @JellaDivinaTolentino
+ Unwatch 1
+  Star 0
+  Fork 0 JellaDivinaTolentino/JellaDivinaTolentino.github.io
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathJellaDivinaTolentino.github.io/index.html
+baa904c  on Aug 27, 2015
+ jelladivina present work
+1 contributor
+RawBlameHistory     Executable File  1117 lines (1043 sloc)  42.7 KB
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -44,7 +60,6 @@
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
-
 -->
 </head>
 <body style="background-color:black;">
@@ -304,6 +319,61 @@
 					<div class="row-fluid">
 						<div class="span6">
 							<p>
+
+								<div class="row-fluid ">
+									<div class="team-name pull-left">
+										<span style="margin-top:-8px" class="dropcap">T</span>
+										Contextus Communities Technology Corporation
+									</div>
+								</div>
+								<div class="row-fluid">
+									<div class="row-fluid">
+										<span class="fontWeight500">Address: </span>
+										&nbsp;Prudential Life Building Annex 31 EDSA corner Apo Street,Mandaluyong City
+									</div>
+									<div class="row-fluid">
+										<span class="fontWeight500">Designation: </span>
+										&nbsp;Web Specialist
+									</div>
+									<div class="row-fluid">
+										<span class="fontWeight500">Year: </span>
+										&nbsp;September 2015 - Present
+									</div>
+								</div>
+								<div class="row-fluid">
+									<br><div class="row-fluid"><b>Work(s) in Contextus:</b></div>
+									<div class="row-fluid">
+										<b>• Camaya Coast Booking System​(2015 ­- Present)</b>
+										<div class="row-fluid">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											Online Booking system that includes room reservation, ferry seat allocation and onlinepayment(Paypal).
+											Role: Business Analyst,Developer and Tester
+											<br><span class="fontWeight500">Role: </span>
+											Business Analyst,Developer and Tester
+											<br><span class="fontWeight500">Website: </span>
+											<a href="https://www.posif.com">www.camayacoast.com</a>
+										</div>
+									</div><br>
+									<br><div class="row-fluid">
+										<b>• Camaya Coast Homeowners Association Membership System ​(Ongoing Project)</b>
+										<div class="row-fluid">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											Membership system for all the home owners.This includes invoicing,giving privileges.
+											<br><span class="fontWeight500">Role: </span>
+											Business Analyst
+										</div>
+									</div><br>
+									<br><div class="row-fluid">
+										<b>• User Management System​(Ongoing Project)
+										<div class="row-fluid">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											System to assign roles/access to a particular user.
+											<br><span class="fontWeight500">Role: </span>
+											Business Analyst
+										</div>
+									</div>
+								</div>	
+
 								<div class="row-fluid ">
 									<div class="team-name pull-left">
 										<span style="margin-top:-8px" class="dropcap">T</span>
@@ -1046,40 +1116,29 @@ $(window).load(function(){
 	$(function() {
 	
 		var Page = (function() {
-
 			var $navArrows = $( '#nav-arrows' ),
 				$nav = $( '#nav-dots > span' ),
 				slitslider = $( '#slider' ).slitslider( {
 					onBeforeChange : function( slide, pos ) {
-
 						$nav.removeClass( 'nav-dot-current' );
 						$nav.eq( pos ).addClass( 'nav-dot-current' );
-
 					}
 				} ),
-
 				init = function() {
-
 					initEvents();
 					
 				},
 				initEvents = function() {
-
 					// add navigation events
 					$navArrows.children( ':last' ).on( 'click', function() {
-
 						slitslider.next();
 						return false;
-
 					} );
-
 					$navArrows.children( ':first' ).on( 'click', function() {
 						
 						slitslider.previous();
 						return false;
-
 					} );
-
 					$nav.each( function( i ) {
 					
 						$( this ).on( 'click', function( event ) {
@@ -1087,7 +1146,6 @@ $(window).load(function(){
 							var $dot = $( this );
 							
 							if( !slitslider.isActive() ) {
-
 								$nav.removeClass( 'nav-dot-current' );
 								$dot.addClass( 'nav-dot-current' );
 							
@@ -1099,13 +1157,9 @@ $(window).load(function(){
 						} );
 						
 					} );
-
 				};
-
 				return { init : init };
-
 		})();
-
 		Page.init();
 	
 	});
@@ -1114,3 +1168,5 @@ $(window).load(function(){
 
 </body>
 </html>
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
