@@ -1,435 +1,530 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jella Tolentino</title>
-<meta name="description" content="">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<!-- Metas Page details-->
+<title>JDPT</title>
+<meta name="description" content="OnePage Resume Portfolio">
 <meta name="author" content="">
-
-<!-- Favicons
-    ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-<!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Metrophobic', serif;-->
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Open Sans', sans-serif;-->
+<!-- font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body onLoad="load()" onUnload="GUnload()">
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+<!--wrapper start-->
+<div class="wrapper noGap" id="wrapper">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
+<!--Header start -->
+<header>
+  	<!--menu start-->
+    <div class="menu">
+    <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+              	<!--<div class="logo">logo</div> -->
+                <div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                     <!-- <a class="navbar-brand" href="#">Menu</a>  --></div>
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem"><a href="#aboutus">About Me</a></li>
+                        <li class="menuItem"><a href="#skillset">Skills</a></li>
+                        <li class="menuItem"><a href="#experience">Experience</a></li>
+                        <li class="menuItem"><a href="#education">Education</a></li>
+                        <li class="menuItem"><a href="#ourwork">Portfolio</a></li>
+                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end--> 
+    <!--banner start-->
+    <div class="banner row" id="banner">
+    <div class="bannerText">
+        <h1>I'm Jella Tolentino</h1>
+        <!-- <h3>Design &amp; Build Beautiful Crafted Web Experiences</h3> -->
+        <h3>Application Design &amp; Development</h3>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
+        <!--background slide show start-->
+        <div class="slide"> 
+          <img src="images/header-image/image01.jpg" alt="image01"> </div>
+        <div class="slide"> 
+          <img src="images/header-image/image02.jpg" alt="image02"> </div>
+        <!--background slide show end--> 
+      </div>
+    </div>
+    <!--banner end--> 
+    
+  </header>
+  <!--Header end -->
+  
+ <!--about us start-->
+  <section class="aboutus" id="aboutus">
     <div class="container">
       <div class="row">
-        <div class="intro-text">
-          <h1 style="color:#FFFFFF;">Hello, I'm <span class="name">Jella</span></h1>
-          <p style="color:#FFFFFF;" class="hide">Web Developer</p>
-          <br>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+       <div class="col-md-12">
+      	<div class="heading">
+        <h2>About me</h2>
+        <h3>Something about myself</h3>        
       </div>
+      </div> 
+       </div> 
+      <div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="img/about.jpg" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
+        	<h5>Jella Divina Tolentino, 25</h5>
+            <h4>Makati City, Philippines</h4>
+            <p>I am a highly proficient programmer with a high degree of knowledge in front-end / back-end development, quick learner, foodie, explorer and aspiring artist. I am currently taking up Masters in Information Systems from University of the Philippine's Open University. I am an expert in PHP, Jquery and Javascript and advanced knowledge in CSS and HTML. I am very fond with design and animation as well. Optimizing and debugging codes are one of the best things I do when it comes to programming due to the fact that I want everything to be well-organized. I also love spending time fixing every little detail of the program. I like to work with a team, because I believe that team work makes you do things faster and you'll learn from each other. I have way too many interest to name, but one of the things I want is to explore more of my creative side and make use of my imagination which might help me in my chosen field as well as my other interests in life. I work hard for things that to me are worth it and adds value to me, and I want to be surrounded by positive people.</p>
+
+            <p>Presently, I have started to like Hackathons, meetups and conferences. Things that involve art and exploring other programming languages is what I do on the side. If I am not working or not seen online, you'll probably find me exploring different places. One of my favorite thing in this world is a good adventure. I want to take every opportunity to learn and go to other places. Learn new culture, experience the locals and be able to keep those experiences.</p>
+
+            <p>I see myself as a good teammate willing to contribute everything I know for the betterment of the team and the projects. Over the last few years, I have learned to manage projects and teammates. As a leader, I have better appreciation of what a team can do if collaboration is done correctly.</p>
+            <p><a role="button" class="btn btn-primary btn-lg" href="file/Resume.docx">Download Printable Resume</a></p>
+        </div>
+      	
+      </div>     
+    </div>    
+  </section>
+  <!--about us end--> 
+  <!--Skillset start -->
+  <section id="skillset" class="skillset">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+               <div class="heading">
+                <h2>Skills &amp; Expertice</h2>
+                <h3>I can say i’m quite good at</h3>        
+              </div>
+            </div>
+            <div class="col-md-12">
+            	<div class="col-md-12 col-sm-12 col-lg-12 media">
+                	<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
+mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis noss nisi ut aliquip ex ea commodo consequat.</p> -->
+              </div>
+            	<div class="col-md-4 col-sm-12 col-lg-4">   
+                <h5 class="text-center">Advanced</h5> <br>           
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>PHP</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>HTML / CSS</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>MySQL</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>jQuery/Javascript/Ajax</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar --> 
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>Bootstrap</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar --> 
+                <div class="skillbar clearfix " data-percent="95%">
+                    <div class="skillbar-title"><span>Foundation</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar --> 
+                 <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title"><span>GIT</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title"><span>Bitbucket</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->               
+              </div>
+              <div class="col-md-4 col-sm-12 col-lg-4">   
+                <h5 class="text-center">Intermediate</h5> <br> 
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title"><span>Laravel</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title"><span>Photoshop</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title"><span>AngularJS 1</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->   
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title"><span>YII</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->     
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title"><span>MongoDB</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->                
+              </div>
+              <div class="col-md-4 col-sm-12 col-lg-4">   
+                <h5 class="text-center">Beginner</h5> <br> 
+                <div class="skillbar clearfix " data-percent="20%">
+                    <div class="skillbar-title"><span>Socket.IO</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->               
+              </div>
+            </div>
+        </div>
     </div>
-  </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
+  </section>
+  <!--Skillset end -->
+  <!--Work Experties start -->
+  <section id="experience" class="myexperties">
+  	<div class="container">
+        <div class="heading">
+        <h2>Work Experience</h2>
+        <h3>My previous associations</h3>        
+      </div>
+        
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Sep,2015<br>Till Date
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Contextus Community Technologies Corporation</h4>
+                <h5>Application Design and Development Team Lead</h5>
+                <p>
+                  Roles:
+                  • Manage a group of developers
+                  • Monitor all aspects of applications being developed to ensure the quality and deadline of applications are met
+                  • Collaborates closely with customers throughout the development cycle
+                  • Coordinated with marketing and business development teams
+                  • Prioritizes programming work and assigns tasks
+                  • Motivate development team
+                  • Held team meetings and prioritized work tasks
+                  • Made key decisions for process implementation
+                  • Contributed to technical solutions from design to code developments
+                  • Planned and implemented multiple complex solutions
+                  • Upheld established standard policies and procedures
+                  • Tested and developed functional requirements
+                  • Transformed business requirements to technical design after thorough analysis
+                  • Test methods for each developed component
+                  • Track software issues via online bug tracker
+                  • Create manuals and release notes as well as conduct trainings for customers
+                  • Manages all phase of software development including enhancements and production support, analyzing requirements and specifications and developing task plans.</p>
+
+                  <p>Skills summary: Laravel 5.6 | AngularJS | Mac | Paypal Integration | MySQL | Bitbucket | Github </p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	May,2012<br>Aug,2015
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>TAG (formerly Zeresoft)</h4>
+                <h5>Junior Programmer</h5>
+                <p>Roles:
+                  • Managed and prioritized multiple projects
+                  • Developed and maintain system databases using MySQL
+                  • Worked with 4 more junior developers and 1 senior developer
+                  • Worked under pressure
+                  • Troubleshoot and provided continual maintenance to application from user requests and identified bugs.</p>
+
+                  <p>Skills summary: Yii Framework | MongoDB | MySQL | Bitbucket | Github | Ubuntu</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Work Experties end -->
+  <!--Education & diploma start -->
+  <section id="education" class="educationdiploma">
+  	<div class="container">
+        <div class="heading">
+        <h2>Education &amp; Diplomas</h2>
+        <h3>I can say i’m quite good at</h3>        
+      </div>
+        
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Aug,2017<br>Till Date
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Master Degree of Information System</h4>
+                <h5>University of the Philippines - Online University</h5>
+                <p>
+                  1st Year, 1st Semester
+                  <div style="padding-left:15px">• Computer Ethics (Ethical issues confronting the computer professional)</div>
+                  <div style="padding-left:15px">• Principles of Programming Languages (Formal language theory, principles, and techniques of compiler construction, programming language, design concepts; parallelism and formal semantics)</div>
+                  <div style="padding-left:15px">• Computer Ethics</div>
+                </p>
+                <p>
+                  1st Year, 2nd Semester 
+                  <div style="padding-left:15px">• Advanced Computer Systems (Recent developments in computer architecture and computer systems)</div>
+                  <div style="padding-left:15px">• Web Information Systems (WWW programming, electronic commerce and online databases)</div>
+                  <div style="padding-left:15px">• Multimedia Production(Process and techniques of producing multimedia communication materials)</div>
+                </p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Jun,2008<br>Apr,2012
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Bachelor of Science in Computer Science</h4>
+                <h5>De La Salle - Lipa</h5>
+                <p>Best Thesis Awardee: Online Fitting Web Application using Augmented Reality</p>
+                <p>Junior Philippine Computer Society Member</p>
+                <p>De La Salle Danzcom PEP Squad Member</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Education & diploma end -->
+  
+  
+  <!--portfolio start-->
+	<section class="protfolio" id="ourwork">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Jella Divina Tolentino</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#resume">Resume</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <h3>What I have done in my academic career</h3>            
+        </div>
+    </div>
+    <div class="row">
+      <div class="portfolioFilter">
+        <ul>
+          <li><a href="#" data-filter="*" class="current">All</a></li>
+          <li><a href="#" data-filter=".laravel">Laravel</a></li>
+          <li><a href="#" data-filter=".yii">Yii Framework</a></li>
+          <li class="last"><a href="#" data-filter=".native_php">Native PHP</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p> Technically proficient,programmer with satisfying knowledge in front-end / back-end skills, learner, foodie, explorer and aspiring artist . Using PHP , Jquery and Javascript is what she is certainly capable of. CSS and HTML is simple yet powerful for her.She likes to design and animate using this things. Optimizing and debugging codes is the best part for her when it comes to programming due to the fact she wants everything to be well-organized.She also loves spending time on fixing every little details of the program. She likes to work in a team,because she believes that you'll finish faster and you'll learn more. She has way too many interest to name, but one of the things she wants to explore more is her creative side and make use of imagination which might help her in the chosen field and might as well as her other interest in life. Her interest in programming stemmed from the awesome things she sees inside the internet and things get better from there. She works hard for things that are totally worth it, and wants to be surrounded by positive people. </p>
-          
-          <p>Presently,she is starting to like Hackathons,meetups and conference. Things that involve art and exploring other programming languages is what she is trying to focus on aside from her profession. For the past years of her life ,there's one thing that she always believe in,that “Life is about continuous progress,move forward but don't forget to look back”. </p>
-
-          <p>If she is not working or not seen online,you'll probably find her exploring different places. One of her favorite thing in this world is a good adventure because she is a total wanderer.Take every opportunity to learn and going to other places is a good start for her. </p>
-
-          <p>She also sees herself as a succesful business woman,apart from still being a programmer and that one peep who was eager enough to travel the world. </p>
-          <p class="text-center"><a class="btn btn-primary" href="file/Resume.docx"><i class="fa fa-download"></i> Download Resume</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Skills</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent" style="color: #C5BD99">95</span> </span>
-        <h4>PHP</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent" style="color: #C5BD99">90</span> </span>
-        <h4>HTML</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent" style="color: #C5BD99">90</span> </span>
-        <h4>CSS</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent" style="color: #C5BD99">80</span> </span>
-        <h4>jQuery/Javascript/Ajax</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent" style="color: #C5BD99">90</span> </span>
-        <h4>MySql</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent" style="color: #C5BD99">65</span> </span>
-        <h4>MongoDB</h4>
-      </div>
-       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent" style="color: #C5BD99">80</span> </span>
-        <h4>Laravel</h4>
-      </div>
-       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent" style="color: #C5BD99">75</span> </span>
-        <h4>Angularjs</h4>
-      </div>
-       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent" style="color: #C5BD99">80</span> </span>
-        <h4>Bitbucket</h4>
-      </div>
-       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent" style="color: #C5BD99">85</span> </span>
-        <h4>Github</h4>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat hide">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Development</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
-          </ol>
+      <ul class="portfolioContainer row">
+        <li class="native_php col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="InstaVotePH @ http://instavoteph.com/" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="laravel col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/2.jpg" title="Camaya Coast Booking Engine @ http://camayacoast.com/book" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb2.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="laravel col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/3.jpg" title="Bataan Express @ http://ppp.camayacoast.com/" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb3.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="laravel col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/4.jpg" title="PDC Monitoring System @ http://pdc.camayacoast.com/login" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb4.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="laravel col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/5.jpg" title="Home Owners Association Portal @ http://hoa.camayacoast.com/login" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb5.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="yii col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/6.jpg" title="TAG 77 @ https://tag77.com/" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb6.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="yii col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/8.jpg" title="Tagcash @ http://www.tagcash.com/" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb8.png" style="height:200px" alt="" > </div>
+        </li>
+        <li class="yii col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/9.jpg" title="Tagbond @ http://tagbond.com/" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb9.png" style="height:200px" alt=""  > </div>
         </li>
       </ul>
-      <div class="clearfix"></div>
     </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/00-large.png" title="InstaVotePH" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>InstaVotePH</h4>
-                <small>www.instavoteph.com</small> </div>
-              <img src="img/portfolio/00-small.png" class="img-responsive" alt="InstaVotePH"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> 
-              <a href="img/portfolio/01-large.png" title="Camaya Coast Booking Engine" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Camaya Coast Booking Engine</h4>
-                <small>www.camayacoast.com</small> </div>
-              <img src="img/portfolio/01-small.png" class="img-responsive" alt="Camaya Coast Booking Engine"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item"style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="PPP" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>PPP</h4>
-                <small>ppp.camayacoast.com</small> </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="PPP"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Camaya Coast PDC Monitoring" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Camaya Coast PDC Monitoring</h4>
-                <small>pdc.camayacoast.com</small> </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Camaya Coast PDC Monitoring"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Camaya Coast HOA System" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Camaya Coast HOA System</h4>
-                <small>hoa.camayacoast.com</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Camaya Coast HOA System"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="TAG 77" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>TAG 77</h4>
-                <small>www.tag77.com</small> </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="TAG 77"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Taglink" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Taglink</h4>
-                <small>www.miskio.com</small> </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Taglink"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item" style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Tagcash" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Tagcash</h4>
-                <small>www.tagcash.com</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Tagcash"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item"style="border:3px double #701112">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Tagbond" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Tagbond</h4>
-                <small>www.tagbond.com</small> </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Tagbond"> </a> </div>
-          </div>
-        </div>
+  </section>
+  <!--portfolio end-->   
+  
+  <!--contact start-->
+  <section class="contact hide" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h2>Get In Touch</h2>
+        <h3>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi</h3>       
       </div>
     </div>
+    <!--google map start-->
+    <div class="row mapArea">
+     <div id="map" style="width: 100%; height: 100%" class=""></div> 
+    </div> 
+    <!--google map end--> 
+  </section>
+  <section class="contact">
+    <div class="container"> 
+    <div class="heading">
+        <h2>Drop a email</h2>
+        <h3>Please feel free if you would like to have a chat.</h3>       
+      </div>
+      <!--contact form start-->
+      <div class="row media">      	 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 conForm text-center">
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your name" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 noMarr" placeholder="Your email" >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your message"></textarea>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" id="submit" name="send" class="submitBnt" value="Send message"></div>
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+      </div>
+      <!--contact form end--> 
+    </div>
+  </section>  
+  <!--contact end--> 
+  
+  <!--footer start-->
+  <section class="footer" id="footer">
+    <div class="container">
+      <ul>
+        <li><a href="https://www.facebook.com/jelladivina"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://linkedin.com/in/jelladivina"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://plus.google.com/+JellaDivinaTolentino08"><i class="fa fa-google-plus fa-2x"></i></a></li>
+        <li><a href="https://github.com/JellaDivinaTolentino"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/jella.divina/"><i class="fa fa-instagram fa-2x"></i></a></li>
+      </ul>
+    </div>
+    <p class="text-center"><a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a></p>
+  </section>
+  <!--footer end-->     
   </div>
-</div>
-<!-- Achievements Section -->
-<div id="achievements" class="text-center hide">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Some Stats</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
-        <div class="achievement-box"> <span class="count" style="color: #C5BD99">310</span>
-          <h4>Happy Clients</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
-        <div class="achievement-box"> <span class="count" style="color: #C5BD99">4700</span>
-          <h4>Hours of Work</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count" style="color: #C5BD99">30</span>
-          <h4>Awards Won</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
-        <div class="achievement-box"> <span class="count" style="color: #C5BD99">4</span>
-          <h4>Years of Experience</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Resume Section -->
-<div id="resume" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Experience</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image">
-              <h4>Sep 2015 <br>
-                - <br>
-                Present </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Contextus Community Technologies Corporation</h4>
-                <h4 class="subheading">Web Specialist</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Lead a team of developers and manage functional requirements of projects including documentation and change request.</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>May 2012 <br>
-                - <br>
-                Aug 2015 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>TAG</h4>
-                <h4 class="subheading">Web Developer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Responsible for delivery of software solutions based on user or business requirements.</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="section-title center">
-      <h2>Education</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          
-          <!-- Education Section-->
-          
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2017 <br>
-                - <br>
-                Present </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>University of the Philippines - Online University</h4>
-                <h4 class="subheading">Master in Information System</h4>
-              </div>
-              <div class="timeline-body hide">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <h4>2008 <br>
-                - <br>
-                2012 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>De La Salle - Lipa</h4>
-                <h4 class="subheading">Bachelor of Science in Computer Science</h4>
-              </div>
-              <div class="timeline-body hide">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Contact</h2>
-      <hr>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <h3 class="hide">Leave me a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate class="hide">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default">Send Message</button>
-      </form>
-      <div class="social">
-        <ul>
-          <li><a href="https://www.facebook.com/jelladivina"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://plus.google.com/+JellaDivinaTolentino08"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="https://github.com/JellaDivinaTolentino"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://www.instagram.com/jellatissimo08/"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://linkedin.com/in/jelladivina"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2016 Jella Tolentino</p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+<!--wrapper end--> 
+
+<!--modernizr js--> 
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script> 
+<!--jquary min js--> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!--for placeholder jquery--> 
+<script type="text/javascript" src="js/jquery.placeholder.js"></script> 
+
+<!--for header jquery--> 
+<script type="text/javascript" src="js/stickUp.js"></script> 
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'skillset',
+		  3: 'experience',
+		  4: 'education',
+		  5: 'ourwork',
+		  6: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+	
+
+});
+</script>
+<script>
+	$('#banner').superslides({
+	  animation: 'fade',
+	  play: 5000
+	});
+</script>  
+
+<!--for portfolio jquery--> 
+<script src="js/jquery.isotope.js" type="text/javascript"></script> 
+<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+
+<!--contact form js--> 
+<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+					scrollwheel: false,
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+				
+				
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Hello!'
+                });
+            }
+        </script>
+
+<script src="js/jquery.easing.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script defer src="js/slideroption.js"></script> 
+
+<!--for theme custom jquery--> 
+<script src="js/custom.js"></script>
+
 </body>
 </html>
