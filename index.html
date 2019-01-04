@@ -25,6 +25,11 @@
 <!-- font icon css style-->
 <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+<style>
+    .skill-bar-percent{
+      left: 100% !important;
+    }
+  </style>
 <body onLoad="load()" onUnload="GUnload()">
 <!-- Preloader -->
 <div id="preloader">
@@ -81,6 +86,8 @@
           <img src="images/header-image/image01.jpg" alt="image01"> </div>
         <div class="slide"> 
           <img src="images/header-image/image02.jpg" alt="image02"> </div>
+        <div class="slide"> 
+              <img src="images/header-image/image03.jpg" alt="image03"> </div>
         <!--background slide show end--> 
       </div>
     </div>
@@ -103,14 +110,14 @@
       <div class="row">
       <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="img/about.jpg" alt=""></div>
       	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
-        	<h5>Jella Divina Tolentino, 25</h5>
+        	<h5>Jella Divina Tolentino, 26</h5>
             <h4>Makati City, Philippines</h4>
             <p>I am a highly proficient programmer with a high degree of knowledge in front-end / back-end development, quick learner, foodie, explorer and aspiring artist. I am currently taking up Masters in Information Systems from University of the Philippine's Open University. I am an expert in PHP, Jquery and Javascript and advanced knowledge in CSS and HTML. I am very fond with design and animation as well. Optimizing and debugging codes are one of the best things I do when it comes to programming due to the fact that I want everything to be well-organized. I also love spending time fixing every little detail of the program. I like to work with a team, because I believe that team work makes you do things faster and you'll learn from each other. I have way too many interest to name, but one of the things I want is to explore more of my creative side and make use of my imagination which might help me in my chosen field as well as my other interests in life. I work hard for things that to me are worth it and adds value to me, and I want to be surrounded by positive people.</p>
 
             <p>Presently, I have started to like Hackathons, meetups and conferences. Things that involve art and exploring other programming languages is what I do on the side. If I am not working or not seen online, you'll probably find me exploring different places. One of my favorite thing in this world is a good adventure. I want to take every opportunity to learn and go to other places. Learn new culture, experience the locals and be able to keep those experiences.</p>
 
             <p>I see myself as a good teammate willing to contribute everything I know for the betterment of the team and the projects. Over the last few years, I have learned to manage projects and teammates. As a leader, I have better appreciation of what a team can do if collaboration is done correctly.</p>
-            <p><a role="button" class="btn btn-primary btn-lg" href="file/Resume.docx">Download Printable Resume</a></p>
+            <p><a download role="button" class="btn btn-primary btn-lg" href="file/Resume.pdf">Download Printable Resume</a></p>
         </div>
       	
       </div>     
@@ -146,6 +153,11 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 </div> <!-- End Skill Bar -->
                 <div class="skillbar clearfix " data-percent="95%">
                     <div class="skillbar-title"><span>MySQL</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="short skillbar clearfix " data-percent="5%">
+                    <div class="skillbar-title"><span>PostgreSQL</span></div>
                     <div class="skillbar-bar"></div>
                     <div class="skill-bar-percent"></div>
                 </div> <!-- End Skill Bar -->
@@ -210,7 +222,7 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               </div>
               <div class="col-md-4 col-sm-12 col-lg-4">   
                 <h5 class="text-center">Beginner</h5> <br> 
-                <div class="skillbar clearfix " data-percent="20%">
+                <div class="skillbar clearfix " data-percent="5%">
                     <div class="skillbar-title"><span>Socket.IO</span></div>
                     <div class="skillbar-bar"></div>
                     <div class="skill-bar-percent"></div>
@@ -223,83 +235,100 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   <!--Skillset end -->
   <!--Work Experties start -->
   <section id="experience" class="myexperties">
-  	<div class="container">
+  	  <div class="container">
         <div class="heading">
         <h2>Work Experience &amp; Accomplishments</h2>
         <h3>My previous associations</h3>        
       </div>
-        
-        <div class="row media">
-        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-            	<div class="expertiesico">
-                	Sep,2015<br>Till Date
-                </div>
-            </div>
-        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
-            	<h4>Contextus Community Technologies Corporation</h4>
-                <h5>Application Design and Development Team Lead</h5>
-                <p>
-                  <b>Roles:</b>
-                  <br>• Manage a group of developers
-                  <br>• Monitor all aspects of applications being developed to ensure the quality and deadline of applications are met
-                  <br>• Collaborates closely with customers throughout the development cycle
-                  <br>• Coordinated with marketing and business development teams
-                  <br>• Prioritizes programming work and assigns tasks
-                  <br>• Motivate development team
-                  <br>• Held team meetings and prioritized work tasks
-                  <br>• Made key decisions for process implementation
-                  <br>• Contributed to technical solutions from design to code developments
-                  <br>• Planned and implemented multiple complex solutions
-                  <br>• Upheld established standard policies and procedures
-                  <br>• Tested and developed functional requirements
-                  <br>• Transformed business requirements to technical design after thorough analysis
-                  <br>• Test methods for each developed component
-                  <br>• Track software issues via online bug tracker
-                  <br>• Create manuals and release notes as well as conduct trainings for customers
-                  <br>• Manages all phase of software development including enhancements and production support, analyzing requirements and specifications and developing task plans.</p>
-
-                  <p><b>Skills summary:</b> Laravel 5.6 | AngularJS | Mac | Paypal Integration | MySQL | Bitbucket | Github </p>
+      <div class="row media">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <div class="expertiesico">
+              Jun,2018<br>Till Date
             </div>
         </div>
-        <div class="row media">
-        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-            	<div class="expertiesico">
-                	May,2012<br>Aug,2015
-                </div>
-            </div>
-        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
-            	<h4>TAG (formerly Zeresoft)</h4>
-                <h5>Junior Programmer</h5>
-                <p><b>Roles:</b>
-                  <br>• Managed and prioritized multiple projects
-                  <br>• Developed and maintain system databases using MySQL
-                  <br>• Worked with 4 more junior developers and 1 senior developer
-                  <br>• Worked under pressure
-                  <br>• Troubleshoot and provided continual maintenance to application from user requests and identified bugs.</p>
-
-                  <p><b>Skills summary:</b> Yii Framework | MongoDB | MySQL | Bitbucket | Github | Ubuntu</p>
-            </div>
-        </div>
-
-        <div class="row media">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-              <div class="expertiesico">
-                  Accomplishments
-                </div>
-            </div>
-          <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+        <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <h5>Freelancer</h5>
               <p>
-                • Provide a cradle-to-grave oversight of software project management, leading the research, design, development, documentation, testing and rollout of the applications.
-                <br>• Designed and developed software solutions for continuous improvement of business process.
-                <br>• Mentored development teams in Agile and RAD practices.
-                <br>• Involved in the development of the automated booking process of day tour, overnight and transportation for Camaya Coast for guest, admins and agents from version 1 to 3 with 24/7 support and maintenance.
-                <br>• Automated monitoring system of PDCs for Camaya Coast
-                <br>• Employee of the year 2012
-                <br>• Beyond the Call of Duty Special Award 2016
-                <br>• Developed and documented a PHP native e-voting system in 1 week on my own. (Masteral Studies Requirement)
-              </p>
+                <b>Roles:</b>
+                <br>• Test and develop functional requirements
+                <br>• Collaborates closely with customers throughout the development cycle
+                <br>• Contributed to technical solutions from design to code developments
+
+                <p><b>Skills summary:</b> Native PHP | Mac | PostgreSQL | MySQL | Bitbucket | Github </p>
+          </div>
+      </div>
+
+      <div class="row media">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <div class="expertiesico">
+              Sep,2015<br>Jun,2018
             </div>
         </div>
+        <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            <h4>Contextus Community Technologies Corporation</h4>
+              <h5>Application Design and Development Team Lead</h5>
+              <p>
+                <b>Roles:</b>
+                <br>• Manage a group of developers
+                <br>• Monitor all aspects of applications being developed to ensure the quality and deadline of applications are met
+                <br>• Collaborates closely with customers throughout the development cycle
+                <br>• Coordinated with marketing and business development teams
+                <br>• Prioritizes programming work and assigns tasks
+                <br>• Motivate development team
+                <br>• Held team meetings and prioritized work tasks
+                <br>• Made key decisions for process implementation
+                <br>• Contributed to technical solutions from design to code developments
+                <br>• Planned and implemented multiple complex solutions
+                <br>• Upheld established standard policies and procedures
+                <br>• Tested and developed functional requirements
+                <br>• Transformed business requirements to technical design after thorough analysis
+                <br>• Test methods for each developed component
+                <br>• Track software issues via online bug tracker
+                <br>• Create manuals and release notes as well as conduct trainings for customers
+                <br>• Manages all phase of software development including enhancements and production support, analyzing requirements and specifications and developing task plans.</p>
+
+                <p><b>Skills summary:</b> Laravel 5.6 | AngularJS | Mac | Paypal Integration | MySQL | Bitbucket | Github </p>
+          </div>
+      </div>
+      <div class="row media">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="expertiesico">
+                May,2012<br>Aug,2015
+              </div>
+          </div>
+        <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            <h4>TAG (formerly Zeresoft)</h4>
+              <h5>Junior Programmer</h5>
+              <p><b>Roles:</b>
+                <br>• Managed and prioritized multiple projects
+                <br>• Developed and maintain system databases using MySQL
+                <br>• Worked with 4 more junior developers and 1 senior developer
+                <br>• Worked under pressure
+                <br>• Troubleshoot and provided continual maintenance to application from user requests and identified bugs.</p>
+
+                <p><b>Skills summary:</b> Yii Framework | MongoDB | MySQL | Bitbucket | Github | Ubuntu</p>
+          </div>
+      </div>
+
+      <div class="row media">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="expertiesico">
+                Accomplishments
+              </div>
+          </div>
+        <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            <p>
+              • Provide a cradle-to-grave oversight of software project management, leading the research, design, development, documentation, testing and rollout of the applications.
+              <br>• Designed and developed software solutions for continuous improvement of business process.
+              <br>• Mentored development teams in Agile and RAD practices.
+              <br>• Involved in the development of the automated booking process of day tour, overnight and transportation for Camaya Coast for guest, admins and agents from version 1 to 3 with 24/7 support and maintenance.
+              <br>• Automated monitoring system of PDCs for Camaya Coast
+              <br>• Employee of the year 2012
+              <br>• Beyond the Call of Duty Special Award 2016
+              <br>• Developed and documented a PHP native e-voting system in 1 week on my own. (Masteral Studies Requirement)
+            </p>
+          </div>
+      </div>
     </div>
   </section>
   <!--Work Experties end -->
@@ -331,6 +360,13 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   <div style="padding-left:15px">• Advanced Computer Systems (Recent developments in computer architecture and computer systems)</div>
                   <div style="padding-left:15px">• Web Information Systems (WWW programming, electronic commerce and online databases)</div>
                   <div style="padding-left:15px">• Multimedia Production(Process and techniques of producing multimedia communication materials)</div>
+                </p>
+
+                <p>
+                  2nd Year, 1st Semester
+                  <div style="padding-left:15px">• Client/Server Computing (Client/server computing techniques, system design, software and applications.)</div>
+                  <div style="padding-left:15px">• Strategic Information Systems Development (Information engineering concepts and tools for strategic systems planning and development.)</div>
+                  <div style="padding-left:15px">• Thesis 1: Information System Project Proposal (Information System Design. First and Second Semesters)</div>
                 </p>
             </div>
         </div>
@@ -371,6 +407,9 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         </ul>
       </div>
       <ul class="portfolioContainer row">
+        <li class="native_php col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/10.jpg" title="CIMB Card Inventory System" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb10.png" style="height:200px" alt="" > </div>
+        </li>
         <li class="native_php col-xs-6 col-sm-4 col-md-3 col-lg-3">
           <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="InstaVotePH @ http://instavoteph.com/" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.png" style="height:200px" alt="" > </div>
         </li>
@@ -446,7 +485,7 @@ mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         <li><a href="https://linkedin.com/in/jelladivina"><i class="fa fa-linkedin fa-2x"></i></a></li>
         <li><a href="https://plus.google.com/+JellaDivinaTolentino08"><i class="fa fa-google-plus fa-2x"></i></a></li>
         <li><a href="https://github.com/JellaDivinaTolentino"><i class="fa fa-github fa-2x"></i></a></li>
-        <li><a href="https://www.instagram.com/jella.divina/"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/jellatisssimo/"><i class="fa fa-instagram fa-2x"></i></a></li>
       </ul>
     </div>
     <p class="text-center"><a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a></p>
